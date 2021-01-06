@@ -1,0 +1,126 @@
+:root{
+    --main-color: #03a9f4;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.contenaire {
+    width: 85%;
+    margin: auto;
+}
+h1 {
+    font-weight: bolder;
+    text-align: center;
+    font-size: 4em;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    transition: .5s;
+    cursor: pointer;
+}
+h1:after {
+    width: 50px;
+    content: "";
+    height: 3px;
+    margin: 6px auto;
+    display: block;
+    background: var(--main-color);
+}
+h1:hover:after {
+    width: 90px;
+}
+h2 {
+    background: #59dbf4;
+    padding: 7px;
+    color: #fff;
+    float: right;
+    border-radius: 12px;
+    height: 0;
+    overflow: hidden;
+}
+code {
+    display: block;
+    background: #eee;
+    border-radius: 13px;
+    margin-bottom: 10px;
+    padding: 9px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+}
+i.fa.fa-star {
+    display: inline-block;
+    color: gold;
+}
+.fa{
+    display: block;
+}
+code.one{
+    width: 120px;
+    border: 2px solid #dc3545;
+    position: relative;
+}
+
+
+code.tow{
+    width: 200px;
+    border: 2px solid #51585e;
+}
+
+code.tree{
+    width: 300px;
+    border: 2px solid #146c43;
+}
+
+code.fore{
+    width: 400px;
+    border: 2px solid#ffcd39;
+}
+
+code.five{
+    width: 500px;
+    border: 2px solid#3dd5f3;
+}
+
+code.sex{
+    width: 600px;
+    border: 2px solid #0a53be;
+}
+
+.felicitation{
+    width: 700px;
+    background: #eee;
+}
+
+
+i.fa.fa-github-alt.fa-5x {
+    width: 100%;
+    margin: 0 auto;
+    color: #03a9f4;
+    text-align: center;
+}
+.refrech {
+    position: absolute;
+    right: 26%;
+    bottom: 20%;
+    padding: 17px 30px;
+    color: #03a9f4;
+    font-size: 59px;
+    border-radius: 15px;
+    border: 3px solid #fff;
+    outline: 0;
+    cursor: pointer;
+}
+label {
+    position: absolute;
+    right: 25.1%;
+    bottom: 17%;
+}
+a {
+    color: #03a9f4;
+}
