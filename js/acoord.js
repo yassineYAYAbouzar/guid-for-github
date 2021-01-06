@@ -8,8 +8,8 @@ code.forEach(co => {
         this.style.color="#fff";
         this.lastChild.classList.remove('fa-frown-o');
         this.lastChild.classList.add('fa-smile-o');
-        this.lastChild.style.color="#f10728"
-        this.lastChild.style.fontSize="21px"
+        this.lastChild.style.color="rgb(151 3 244)"
+        
         this.lastChild.style.fontWeight="bold"
     
         if(e.target.dataset.color=="#0a53be"){

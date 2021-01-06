@@ -43,7 +43,7 @@ h2 {
     height: 0;
     overflow: hidden;
 }
-code {
+section code {
     display: block;
     background: #eee;
     border-radius: 13px;
@@ -53,50 +53,42 @@ code {
     text-align: center;
     font-size: 16px;
 }
-i.fa.fa-star {
+.fa-star {
     display: inline-block;
     color: gold;
 }
-.fa{
-    display: block;
-}
-code.one{
+
+section code.one{
     width: 120px;
     border: 2px solid #dc3545;
     position: relative;
 }
 
 
-code.tow{
+section code.tow{
     width: 200px;
     border: 2px solid #51585e;
 }
 
-code.tree{
+section code.tree{
     width: 300px;
     border: 2px solid #146c43;
 }
 
-code.fore{
+section code.fore{
     width: 400px;
     border: 2px solid#ffcd39;
 }
 
-code.five{
+section code.five{
     width: 500px;
     border: 2px solid#3dd5f3;
 }
 
-code.sex{
+section code.sex{
     width: 600px;
     border: 2px solid #0a53be;
 }
-
-.felicitation{
-    width: 700px;
-    background: #eee;
-}
-
 
 i.fa.fa-github-alt.fa-5x {
     width: 100%;
@@ -121,6 +113,6 @@ label {
     right: 25.1%;
     bottom: 17%;
 }
-a {
+section a {
     color: #03a9f4;
 }
