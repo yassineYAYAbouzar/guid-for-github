@@ -116,3 +116,10 @@ label {
 section a {
     color: #03a9f4;
 }
+.click {
+    position: absolute;
+    right: 67%;
+    top: 100%;
+    color: #dc3545;
+    font-size: 17px;
+}
